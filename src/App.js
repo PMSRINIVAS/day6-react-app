@@ -1,25 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 
+//Special in the world of react family
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  //Function that returns JSX/ HTML TAG
+  return <h1> Hello World React JSXXXX!!,,,,</h1>
 }
+
+const sum=(n1,n2) =>{
+  return n1+n2;
+};
 
 export default App;
